@@ -6,26 +6,27 @@
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="style.css">
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-        <title>Login & Signup</title>
+        <title>Smile Studio</title>
+        <link rel="shortcut icon" href="https://smiley.com/cdn/shop/files/header.png?v=1680620707">
     </head>
     <body>
         <div class="container">
             <div class="form-box login">
                 <form action="">
-                    <h1>Login</h1>
+                    <h1>Đăng Nhập</h1>
                     <div class="input-box">
-                        <input type="text" placeholder="Username" required>
+                        <input type="text" placeholder="Tài khoản" required>
                         <i class='bx bxs-user'></i>
                     </div>
                     <div class="input-box">
-                        <input type="password" placeholder="Password" required>
+                        <input type="password" placeholder="Mật khẩu" required>
                         <i class='bx bxs-lock-alt' ></i>
                     </div>
                     <div class="forgot-link">
-                        <a href="#">Forgot password?</a>
+                        <a href="#">Quên mật khẩu?</a>
                     </div>
                     <button type="submit" class="btn">Login</button>
-                    <p>or login with social platforms</p>
+                    <p>hoặc đăng nhập với nền tảng xã hội</p>
                     <div class="social-icons">
                         <a href="#"><i class='bx bxl-google' ></i></a>
                         <a href="#"><i class='bx bxl-facebook' ></i></a>
@@ -36,9 +37,9 @@
             </div>
             <div class="form-box register">
                 <form action="">
-                    <h1>Registration</h1>
+                    <h1>Đăng ký</h1>
                     <div class="input-box">
-                        <input type="text" placeholder="Username" required>
+                        <input type="text" placeholder="Tài khoản" required>
                         <i class='bx bxs-user'></i>
                     </div>
                     <div class="input-box">
@@ -46,11 +47,11 @@
                         <i class='bx bxs-user'></i>
                     </div>
                     <div class="input-box">
-                        <input type="password" placeholder="Password" required>
+                        <input type="password" placeholder="Mật khẩu" required>
                         <i class='bx bxs-envelope' ></i>
                     </div>
-                    <button type="submit" class="btn">Register</button>
-                    <p>or register with social platforms</p>
+                    <button type="submit" class="btn">Đăng ký</button>
+                    <p>hoặc đăng ký bằng nền tảng xã hội</p>
                     <div class="social-icons">
                         <a href="#"><i class='bx bxl-google' ></i></a>
                         <a href="#"><i class='bx bxl-facebook' ></i></a>
@@ -59,7 +60,22 @@
                     </div>
                 </form>
             </div>
+
+            <div class="toggle-box">
+                <div class="toggle-panel toggle-left">
+                    <h1>Smile Studio, Hello!</h1>
+                    <p>Không có tài khoản?</p>
+                    <button class="btn register-btn">Đăng ký ngay</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Chào Mừng Trở Lại!</h1>
+                    <p>Đã có tài khoản?</p>
+                    <button class="btn login-btn">Đăng nhập</button>
+                </div>
+            </div>
         </div>
+
+        <script src="script.js"></script>
     </body>
 </html>
 <!--Youtube: https://www.youtube.com/watch?v=Z_AbWH-Vyl8&ab_channel=Codehal -->
